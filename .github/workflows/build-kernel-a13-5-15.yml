@@ -53,7 +53,7 @@ on:
 jobs:
 
   build-kernel-a13-5-15:
-    uses: ./.github/workflows/kernel-a13-5.15.yml
+    uses: /.github/workflows/kernel-a13-5.15.yml
     secrets: inherit
     with:
       make_release: false
